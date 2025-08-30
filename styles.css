@@ -314,12 +314,6 @@ body {
 }
 
 .reflection-title {
-    font-size: clamp(2rem, 8vw, 6rem);
-    font-weight: 800;
-    color: #ffffff;
-    margin-bottom: 2rem;
-    letter-spacing: -0.02em;
-    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
 
 .reflection-text {
