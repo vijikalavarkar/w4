@@ -314,7 +314,7 @@ body {
 }
 
 .reflection-title {
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(2rem, 8vw, 6rem);
     font-weight: 800;
     color: #ffffff;
     margin-bottom: 2rem;
