@@ -315,7 +315,7 @@ body {
 
 .reflection-title {
     font-size: clamp(3rem, 8vw, 6rem);
-    font-weight: 800;
+    font-weight: 500;
     color: #ffffff;
     margin-bottom: 2rem;
     letter-spacing: -0.02em;
