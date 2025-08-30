@@ -320,11 +320,6 @@ body {
     margin-bottom: 2rem;
     letter-spacing: -0.02em;
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
-
-    /* animation */
-    opacity: 0;
-    transform: translateY(30px);
-    animation: fadeUp 1s ease-out forwards;
 }
 
 .reflection-text {
