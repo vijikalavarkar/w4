@@ -46,9 +46,9 @@ body {
 
 .hero-title {
     font-size: clamp(4rem, 12vw, 9rem);
-    font-weight: 600;
+    font-weight: 900;
     margin-bottom: 2rem;
-    background: linear-gradient(135deg, #1e293b 0%, #475569 50%, #334155 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #475569 50%, #e2e8f0 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
