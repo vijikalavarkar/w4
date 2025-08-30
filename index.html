@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4W of My Life - A Journey of Connection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">4W of My Life</h1>
+            <p class="hero-subtitle">A journey through the four essential questions that define our human connections</p>
+            <button class="cta-button" onclick="scrollToSection('section1')">
+                Begin the Journey
+                <span class="arrow">↓</span>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-dots">
+                <span class="dot active" onclick="scrollToSection('hero')"></span>
+                <span class="dot" onclick="scrollToSection('section1')"></span>
+                <span class="dot" onclick="scrollToSection('section2')"></span>
+                <span class="dot" onclick="scrollToSection('section3')"></span>
+                <span class="dot" onclick="scrollToSection('section4')"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: Who Borned You -->
+    <section id="section1" class="life-section section-rose">
+        <div class="section-background"></div>
+        <div class="section-content">
+            <div class="icon-container rose-gradient">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+            </div>
+            <h2 class="section-title">Who Borned You</h2>
+            <p class="section-subtitle">The Foundation</p>
+            <div class="content-card">
+                <p class="section-description">
+                    Those who brought you into this world, nurtured your first breath, and laid the foundation of your existence. 
+                    The eternal gratitude we owe to our creators - our parents, guardians, and the loving hands that shaped our earliest days.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Who is Born with You -->
+    <section id="section2" class="life-section section-blue">
+        <div class="section-background"></div>
+        <div class="section-content">
+            <div class="icon-container blue-gradient">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+            </div>
+            <h2 class="section-title">Who is Born with You</h2>
+            <p class="section-subtitle">The Companions</p>
+            <div class="content-card">
+                <p class="section-description">
+                    The souls who walk alongside you through life's journey. Family, friends, siblings, and kindred spirits 
+                    who share your path, understand your story, and create the beautiful tapestry of shared experiences.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Who is Born for You -->
+    <section id="section3" class="life-section section-purple">
+        <div class="section-background"></div>
+        <div class="section-content">
+            <div class="icon-container purple-gradient">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+                </svg>
+            </div>
+            <h2 class="section-title">Who is Born for You</h2>
+            <p class="section-subtitle">The Destined</p>
+            <div class="content-card">
+                <p class="section-description">
+                    The special someone meant to complete your story. Your soulmate, life partner, or that one person 
+                    who changes everything and makes life meaningful. The connection that feels written in the stars.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Who is Born from You -->
+    <section id="section4" class="life-section section-green">
+        <div class="section-background"></div>
+        <div class="section-content">
+            <div class="icon-container green-gradient">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path>
+                </svg>
+            </div>
+            <h2 class="section-title">Who is Born from You</h2>
+            <p class="section-subtitle">The Legacy</p>
+            <div class="content-card">
+                <p class="section-description">
+                    The next generation that carries your essence forward. Your children, students, mentees, or those whose lives 
+                    you've shaped and who will continue your story long after you're gone. Your living legacy.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Reflection Section -->
+    <section class="reflection-section">
+        <div class="reflection-background"></div>
+        <div class="reflection-content">
+            <h2 class="reflection-title">The Circle of Life</h2>
+            <p class="reflection-text">
+                These four connections form the complete tapestry of human existence. From those who gave us life, 
+                to those who share our journey, to those destined for us, and finally to those who carry us forward. 
+                Understanding these relationships helps us appreciate the beautiful interconnectedness of our lives.
+            </p>
+            
+            <div class="connection-grid">
+                <div class="connection-item" onclick="scrollToSection('section1')">
+                    <div class="connection-icon rose-gradient">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                    </div>
+                    <p class="connection-label">Foundation</p>
+                </div>
+                <div class="connection-item" onclick="scrollToSection('section2')">
+                    <div class="connection-icon blue-gradient">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <p class="connection-label">Companions</p>
+                </div>
+                <div class="connection-item" onclick="scrollToSection('section3')">
+                    <div class="connection-icon purple-gradient">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+                        </svg>
+                    </div>
+                    <p class="connection-label">Destined</p>
+                </div>
+                <div class="connection-item" onclick="scrollToSection('section4')">
+                    <div class="connection-icon green-gradient">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path>
+                        </svg>
+                    </div>
+                    <p class="connection-label">Legacy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
