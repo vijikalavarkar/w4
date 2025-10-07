@@ -598,11 +598,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+    text-align: center;
 }
 
 .footer-bottom p {
@@ -614,6 +610,14 @@ section {
 .footer-tagline {
     font-style: italic;
     color: #8b5cf6 !important;
+    margin-bottom: 0.5rem;
+}
+
+.creator-credit {
+    font-size: 0.85rem !important;
+    color: #475569 !important;
+    font-weight: 500;
+    margin-top: 0.5rem;
 }
 
 /* Footer Responsive Design */
